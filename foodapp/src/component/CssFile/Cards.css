@@ -1,0 +1,212 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgb(237, 237, 237);
+  width: 100%;
+}
+
+
+.row {
+  margin: 10px; 
+}
+.row:hover{
+  transform: scale(1.05);
+  z-index: 2;
+}
+
+
+
+.card {
+  margin:20px;
+  background-color: rgb(179, 87, 44);
+  width: 20rem;
+  border: 1px solid #ffffff;
+  border-radius: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.card-img-pic {
+  height: 15rem;
+  margin-top:10px;
+  object-fit: cover; 
+  border-radius: 30px;
+  align-items: center;
+  
+}
+
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+
+.btn-primary {
+  background-color: #ffffff;
+  border: 2px solid #ff7b00;
+  color: #000000;
+  border-radius: 80px;
+}
+
+.btn-primary:hover {
+  border: 2px solid #ffffff;
+  background-color: #ff7b00;
+  color: #000000;
+}
+
+
+.card-text {
+  margin-bottom: 10px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.addtocart{
+  position: absolute;
+  top: 80px;
+  background-color: rgb(104, 95, 112);
+}
+
+.theimg{
+  height:60vh;
+  width: 100%;  
+}
+
+.container{
+  padding: 0%;
+  margin: 0%;
+}
+
+@media (max-width:100%) {
+ 
+  .container {
+      padding: 10px;
+
+  }
+
+  .addtocart {
+      font-size: 24px; 
+  }
+ 
+}
+
+
+
+/* Reset default margin and padding for the entire page */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the footer container */
+.footer {
+  background-color: rgb(179, 87, 44); /* Change the background color to your preference */
+  color: #fff; /* Change the text color to your preference */
+  padding: 20px 0; /* Add padding as needed */
+}
+
+/* Center the content within the container */
+/* .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+/* Style the footer content area */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style the footer logo */
+.footer-logo {
+  margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.xyzpic {
+  width: 100px; /* Set the width to your preference */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Style the footer menu */
+.footer-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.footer-menu li {
+  margin-right: 20px; /* Adjust the margin as needed */
+}
+
+/* Style the anchor links in the menu */
+.footer-menu a {
+  color: #fff; /* Change link text color to your preference */
+  text-decoration: none;
+  font-weight: bold; /* Set font weight as needed */
+}
+
+/* Style the footer contact information */
+.footer-contact p {
+  margin: 0;
+  margin-bottom: 10px; /* Add margin between contact info items */
+}
+
+/* Add a border to separate contact info from the content */
+.footer-contact {
+  border-left: 1px solid #fff; /* Change border color to your preference */
+  padding-left: 20px; /* Add padding as needed */
+}
+
+
+.xyzpic{
+  height:60px;
+}
+
+.category-filter-buttons{
+  background-color: rgb(179, 87, 44);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:30px;
+}
+
+.category-filter-buttons button{
+  background-color: #ffffff;
+  border: 2px solid  #ff7b00 ;
+  color: #000000;
+  border-radius: 60px;
+}
+
+.category-filter-buttons button:hover{
+  border: 2px solid #ffffff;
+  background-color: #ff7b00;
+}
+
+.boxcontainer{
+  background-color: rgb(179, 87, 44);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  padding: 30px;
+}

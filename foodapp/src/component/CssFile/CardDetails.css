@@ -1,0 +1,139 @@
+.containery {
+  height:85vh;
+  width: 100%;
+  position: relative;
+  top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divtext {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.containerx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1px 4px rgb(0, 0, 0);
+}
+
+.contbox{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 10px;
+}
+
+.itemdetails{
+  padding: 10px;
+  margin: 10px;
+}
+
+.items-imgs {
+  max-width: 200px;
+  height: 100%;
+}
+
+.items-imgs img {
+  max-width: 100%;
+  height:100%;
+  border-radius: 10px;
+}
+
+details {
+  flex: 2;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+Table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+
+table p {
+  margin: 0;
+}
+
+strong {
+  font-weight: bold;
+}
+
+Rating {
+  background-color: green;
+  color: #fff;
+  padding: 2px 5px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+Total {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+DeleteIcon {
+  color: red;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.footerx {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height:100px;
+  width: 100%;
+  background-color: rgb(179, 87, 44);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  top:86vh;
+  gap: 60px;
+  
+  }
+  
+  .footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-social p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .footer-social strong {
+    color: yellow; /* Change the color to your preference */
+  }  
+
+  .category-filter-buttons{
+    background-color: rgb(179, 87, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+  }
+  
+  .category-filter-buttons button{
+    background-color: #ffffff;
+    border: 2px solid  #ff7b00 ;
+    color: #000000;
+    border-radius: 60px;
+  }
+  
+  .category-filter-buttons button:hover{
+    border: 2px solid #ffffff;
+    background-color: #ff7b00;
+  }

@@ -1,0 +1,129 @@
+
+.imgimgx{
+  height:auto;
+  width: 100%;
+}
+
+#imgimg{
+  height:100vh;
+  filter: blur(2px);
+  width: 100%;
+}
+
+#logoimg {
+  position:absolute;
+  top:40vh;
+  height:90px;
+  width:250px;
+  left:120vh;
+}
+
+#h6{
+  position: relative;
+  left:90px;
+}
+
+#textanimation
+{
+  opacity: 0;
+  animation: fade-in 2s forwards steps(20) infinite;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+#textanimation{
+  position:absolute;
+  top:10vh;
+  left:110vh;
+  color: aliceblue;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.containerboxyz{
+  position: absolute;
+  top: 30px;
+  left:20vh;
+  width:50vh;
+}
+
+.formx{
+  color: rgb(210, 188, 18);
+  background-color:rgba(179, 87, 44, 0.082);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.511);
+  padding: 20px;
+}
+
+.inputx{
+  color: aliceblue;
+  width: 100%;
+  padding: 3px;
+  border: 1px solid rgb(179, 87, 44);
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.img-fluid{
+  /* position: absolute;
+  top:55vh;
+  left:165vh;
+  height:30vh;
+  width:30vh; */
+  animation: imgRotate 50s linear infinite;
+  animation-duration: 50s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: imgRotate;
+    animation-timeline: auto;
+    animation-range-start: normal;
+    animation-range-end: normal;
+}
+
+.img-fluid-img {
+
+}
+
+@keyframes imgRotate { 
+  100% { 
+      transform: rotate(360deg); 
+  } 
+}
+
+#loginxyz{
+  position:absolute;
+  top:10vh;
+  left:180vh;
+  color: slateblue;
+}
+
+#signupxyz{
+  position:absolute;
+  top:10vh;
+  left:190vh;
+  color: slateblue;
+}
+
+.bannercircle{
+  position:absolute;
+  top:6vh;
+  left: 10vh;
+  height:80vh;
+  width:80vh;
+  border: 1px solid black;
+  border-radius:360vh;
+}

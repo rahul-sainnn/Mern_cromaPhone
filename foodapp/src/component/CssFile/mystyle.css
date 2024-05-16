@@ -1,0 +1,58 @@
+.containerbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.formy{
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ff7b008c;
+  padding: 15px;
+  width: 60vh;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 20px;
+}
+
+.form-group {
+  margin: 10px ;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-bottom: 1px;
+}
+
+.inputy{
+  width: 100%;
+  padding: 3px;
+  box-shadow: 0 0 10px #ff7b008c;
+  border-radius: 5px; 
+}
+
+button {
+  border-color: #ff7b00;
+  border-radius:10px;
+}
+
+p {
+  margin: 15px;
+}
+
+.button {
+  background: none;
+  border: none;
+  color: #007BFF;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+input{
+  border-color: #ff7b0057;
+}

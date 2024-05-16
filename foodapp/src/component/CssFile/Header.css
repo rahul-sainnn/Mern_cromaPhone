@@ -1,0 +1,43 @@
+.btnx{
+    position: relative;
+    left:180vh;
+    top:5px;
+}
+
+#add{
+    margin:10px;
+}
+
+#img{
+    position: absolute;
+    left:80px;
+    top: 5px;
+    height: 80px;
+    width:160px;
+}
+
+#home{
+    position: relative;
+    left:188vh;
+    top:5px;
+}
+
+.mainbox{
+    background-color: rgb(179, 87, 44);
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    height: 80px;
+    
+}
+
+#login{
+    position: relative;
+    left:160vh;
+    top:5px;
+}
+#signup{
+    position: relative;
+    left:165vh;
+    top:5px;
+}
